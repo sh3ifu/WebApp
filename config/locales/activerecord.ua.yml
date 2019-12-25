@@ -1,0 +1,11 @@
+ua:
+  activerecord:
+    models:
+      post: 'Пост'
+    attributes:
+      post:
+        title: 'Назва'
+        summary: 'Коротко про пост'
+        body: 'Зміст'
+      category:
+        name: 'Назва'

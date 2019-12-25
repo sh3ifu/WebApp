@@ -1,0 +1,10 @@
+<div class="menu">
+  <h2>Категорії</h2>
+  <ul class="nav nav-pills nav-stacked">    
+    <%= form_for @category do |category| %>
+      <li class="nav-item">
+        <%= link_to category.name, category, class: "nav-link #{'active' if current_page?(category_path(category))}" %>
+      </li>
+    <% end %>
+  </ul>
+</div>
