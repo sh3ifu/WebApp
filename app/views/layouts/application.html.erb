@@ -17,6 +17,7 @@
         <h5 class="my-0 mr-md-auto font-weight-normal">Blog</h5>
         <nav class="my-2 my-md-0 mr-md-3">
           <a class="p-2 text-dark" href="<%= posts_path %>">Всі пости</a>
+          <a class="p-2 text-dark" href="<%= categories_path %>">Всі категорії</a>
         </nav>
         <a class="btn btn-outline-primary" href="<%= new_post_path %>">Створити пост</a>
       </div>
@@ -30,17 +31,18 @@
               <%= message %>
             </div>
           <% end %>
-        </div>        
+        </div>
       </div>
-      <%= yield %>
     </div>
 
-    <div class="row">
-      <div class="col-md-9">
-
-      </div>
-      <div class="col-md-3">
-
+    <div class="container main">
+      <div class="row">
+        <div class="col-md-9">
+          <%= yield %>
+        </div>
+        <div class="col-md-3">
+          <%= render 'shared/submenu' %>
+        </div>
       </div>
     </div>
 

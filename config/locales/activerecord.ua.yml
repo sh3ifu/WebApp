@@ -9,3 +9,4 @@ ua:
         body: 'Зміст'
       category:
         name: 'Назва'
+        parent_id: 'Основна категорія'

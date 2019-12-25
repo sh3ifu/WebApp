@@ -19,10 +19,7 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-
-#gem 'bootstrap', '~> 4.4.1'
-#gem 'jquery-rails'
-
+gem 'ancestry'
 gem "mini_magick"
 gem 'carrierwave', '~> 2.0'
 
